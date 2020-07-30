@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Joshua_Style.css">
+    
+</head>
+<body>
+    <nav>
+        <ul>
+          <li style ="color: black;"> <a href="Home"> Home </a></li>
+          <li style ="color: black;"> <a href="Products"> Products </a></li>
+          <li style ="color: black;"> <a href="Gallery"> Gallery </a></li>
+          <li style ="color: black;"> <a href="Blog"> Blog </a></li>
+          <li style ="color: black;"> <a href="Profile">Profile </a> </li>
+          <li style ="color: black;"> <a href="My Inventory"> My Inventory </a></li>
+        </ul>
+    </nav>
+
+<div class="Profile-container">
+    <div class="Profile" style=" height: 100%;">
+      <div class ="row" style= " align-items: center;">  
+        
+        <div class ="column">
+          <img src="avatarPP.png" alt="Avatar" height="200px" style="text-align: center; padding: 10%;">
+        </div>
+        
+        <div class ="column-identitas">
+            <div class ="justify-content: center">
+                  <p style="font-size: 25px; font-weight: bold; margin-bottom: 0px;"> John Doe </p>
+                  <p style="margin-top: 2px;"> Front End Designer </p>
+            </div>
+            
+            <div class="row">
+              <div class="column">   
+                <button class="tomboledit">Edit</button>            
+              </div>
+              <div class="column">
+                <button class="tombolresume"> Resume</button>
+              </div>
+            </div>
+        </div>
+        
+        <div class ="column-data">
+          <div style ="justify-content: center;">
+            <p> Availability</p>
+            <p> Usia </p>
+            <p> Lokasi </p>
+            <p> Pengalaman </p>
+            <p> Email </p>
+          </div>
+        </div> 
+
+        <div class ="column-isidata">
+          <div style ="justify-content: center;">
+            <p> Full Time</p>
+            <p> 23 </p>
+            <p> Jakarta, Indonesia </p>
+            <p> 2 </p>
+            <p> Joshdre1612@gmail.com </p>
+          </div>
+        </div> 
+      </div>
+    </div> 
+</div>
+
+<div class="form-container">
+  <div class="form">
+        <div>
+          <div class="isi-form">
+            <form action="action_page.php">
+
+              <div class="field">
+                <label for="nama"> Nama Lengkap </label>
+                <input type="text" id="nama" nama="namalengkap" placeholder="nama anda..">
+              </div>
+              
+              <div class="field">
+                <label class="field" for="role"> Role </label>
+                <input type="text" id="role" name="role" placeholder="Your role..">
+              </div>
+
+              <div class="field">  
+              <label class="field" for="Age"> Umur </label>
+              <input type="text" id="umur" nama="umur" placeholder="Umur anda..">
+              </div>
+
+              <div class="field">
+              <label class="field" for="role"> Lokasi </label>
+              <input type="text" id="lokasi" name="lokasi" placeholder="Lokasi anda..">
+              </div>
+
+              <div class="field">
+              <label class="field" for="pengalaman">Tahun Pengalaman </label>
+              <input type="text" id="pengalaman" name="tahunpengalaman" placeholder="Tahun pengalaman anda..">
+              </div>
+
+              <div class="field">
+              <label class="field" for="email">E-mail </label>
+              <input type="text" id="email" name="email" placeholder="E-mail anda..">
+              </div>
+
+              <div class="field">
+                <div style="margin-bottom: 2%; font-size: 16;">
+                  <input type="submit" value="Submit">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+  </div>
+</div>
+
+</body>
+</html>
